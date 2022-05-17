@@ -9,7 +9,6 @@ const unmountedStyle = {
 function AccordionItem({ data, index }) {
 
   const [isOpen, setIsOpen] = useState(false);
-  // const accordionContentRef = useRef();
 
 const toggleAccordion = () => {
   let temp =  !isOpen;
