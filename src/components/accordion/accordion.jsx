@@ -1,6 +1,7 @@
 import React from 'react'
 import AccordionItem from './AccordionItem';
 import AccordionHeight from '../accordionHeight/AccordionHeight';
+import Accordionchat from '../accordionChat/AccordionChat';
 
 import './accordion.scss'
 
@@ -30,6 +31,8 @@ function Accordion() {
         }
         
         <AccordionHeight />
+
+        <Accordionchat />
         
 
        
