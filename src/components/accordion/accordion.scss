@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+.accordion {
+    margin: auto;
+    max-width: 800px;
+
+    .accordion-item {
+        .accordion-title {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            cursor: pointer;
+            color: white;
+
+            &:hover {
+                opacity: 0.5;
+            }
+
+            button {
+                background-color: transparent;
+                border: none;
+                font-size: 15px;
+                cursor: pointer;
+                color: white;
+            }
+        }
+
+        .accordion-content {
+            padding: 8px 16px 8px 16px;
+            transition: all 2s;
+        }
+    }
+
+
+@keyframes inAnimation {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  @keyframes outAnimation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}

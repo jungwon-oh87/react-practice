@@ -1,0 +1,13 @@
+.accordion-height-item {
+    cursor: pointer;
+    
+    .content {
+        overflow: hidden;
+        max-height: 0px;
+        transition: max-height 1s ease-in;
+        background-color:red;
+        &.isOpen {
+            max-height: 200px;
+        }
+    }
+}
