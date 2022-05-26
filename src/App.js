@@ -11,6 +11,12 @@ function App() {
         <ul>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='accordion'>Accordion</Link></li>
+          <li><Link to=''>Carousel</Link></li>
+          <li><Link to=''>Menu Tab</Link></li>
+          <li><Link to=''>Notification toast(pop-up notification)</Link></li>
+          <li><Link to=''>Hover Component</Link></li>
+          <li><Link to=''>Input localhost</Link></li>
+          <li><Link to=''>Shopping Cart</Link></li>
         </ul>
       </div>
         <Routes>

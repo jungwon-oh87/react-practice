@@ -1,5 +1,8 @@
 import React from 'react'
 import AccordionItem from './AccordionItem';
+import AccordionHeight from '../accordionHeight/AccordionHeight';
+import Accordionchat from '../accordionChat/AccordionChat';
+
 import './accordion.scss'
 
 function Accordion() {
@@ -26,6 +29,11 @@ function Accordion() {
                 return <AccordionItem key={idx} data={element} index={idx}/>
             })
         }
+        
+        <AccordionHeight />
+
+        <Accordionchat />
+        
 
        
     </div>
